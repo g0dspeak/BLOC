@@ -74,7 +74,7 @@ const char GENESIS_COINBASE_TX_HEX[] = "013201ff0001d2c60e029b2e4c0281c0b02e7c53
 /* This is the unix timestamp of the first "mined" block (technically block 2, not the genesis block)
    You can get this value by doing "print_block 2" in BLOCd. It is used to know what timestamp
    to import from when the block height cannot be found in the node or the node is offline. */
-const uint64_t GENESIS_BLOCK_TIMESTAMP                       = ;
+const uint64_t GENESIS_BLOCK_TIMESTAMP                       = 0;
 
 const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = 1000000; //size of block (bytes) after which reward for block calculated using block size
