@@ -171,15 +171,16 @@ const double POISSON_CHECK_LOGP = -75.0; //Reject blocks that are less likely th
 /* Block heights we are going to have hard forks at */
 const uint64_t FORK_HEIGHTS[] =
 {
-    1, //0
+  /*  1, //0
 	50, //1
 	100, //2
 	40500, //3
     317060, //4
+*/
 };
 
 /* MAKE SURE TO UPDATE THIS VALUE WITH EVERY MAJOR RELEASE BEFORE A FORK */
-const uint64_t SOFTWARE_SUPPORTED_FORK_INDEX                 = 4;
+const uint64_t SOFTWARE_SUPPORTED_FORK_INDEX                 = 1;
 
 const uint64_t FORK_HEIGHTS_SIZE = sizeof(FORK_HEIGHTS) / sizeof(*FORK_HEIGHTS);
 
@@ -230,8 +231,8 @@ const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
 
 // P2P Network Configuration Section - This defines our current P2P network version
 // and the minimum version for communication between nodes
-const uint8_t  P2P_CURRENT_VERSION                           = 6;
-const uint8_t  P2P_MINIMUM_VERSION                           = 4;
+const uint8_t  P2P_CURRENT_VERSION                           = 1;
+const uint8_t  P2P_MINIMUM_VERSION                           = 1;
 // This defines the number of versions ahead we must see peers before we start displaying
 // warning messages that we need to upgrade our software.
 const uint8_t  P2P_UPGRADE_WINDOW                            = 2;
@@ -261,9 +262,11 @@ const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 };
 
 const char* const SEED_NODES[] = {
+    /*
     "atlantic.bloc.money:2082",//atlantic
     "pacific.bloc.money:2082",//pacific
  	"baltic.bloc.money:2082",//baltic
  	"europe.bloc.money:2082"//europe
+    */
 };
 } // CryptoNote
