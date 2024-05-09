@@ -222,8 +222,8 @@ const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        =  10000;  //by def
 const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  100;    //by default, blocks count in blocks downloading
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
-const int      P2P_DEFAULT_PORT                              =  2082;
-const int      RPC_DEFAULT_PORT                              =  2086;
+const int      P2P_DEFAULT_PORT                              =  12082;
+const int      RPC_DEFAULT_PORT                              =  12086;
 const int      SERVICE_DEFAULT_PORT                          =  8070;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
@@ -258,7 +258,7 @@ const char     LATEST_VERSION_URL[]                          = "https://bloc.mon
 const std::string LICENSE_URL                                = "https://github.com/furiousteam/BLOC/blob/master/LICENSE";
 const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 {
-    {  0x21, 0x21, 0x32, 0xf2, 0x2f, 0x29, 0x2c, 0x23, 0x22, 0x8f, 0x8c, 0x12, 0x37, 0x27, 0x9d, 0x98  }
+    {  0x21, 0x21, 0x32, 0xf2, 0x2f, 0x2c, 0x23, 0x22, 0x8f, 0x8c, 0x12, 0x37, 0x27, 0x9d, 0x98  }
 };
 
 const char* const SEED_NODES[] = {
