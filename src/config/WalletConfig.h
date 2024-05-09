@@ -11,10 +11,10 @@
 namespace WalletConfig
 {
     /* The prefix your coins address starts with */
-    const std::string addressPrefix = "abLoc";
+    const std::string addressPrefix = "xnomo";
 
     /* Your coins 'Ticker', e.g. Monero = XMR, Bitcoin = BTC */
-    const std::string ticker = "BLOC";
+    const std::string ticker = "NOMO";
 
     /* The filename to output the CSV to in save_csv */
     const std::string csvFilename = "transactions.csv";
@@ -24,20 +24,20 @@ namespace WalletConfig
     const std::string addressBookFilename = ".addressBook.json";
 
     /* The name of your deamon */
-    const std::string daemonName = "BLOCd";
+    const std::string daemonName = "Nomod";
 
     /* The name to call this wallet */
-    const std::string walletName = "BLOCWallet";
+    const std::string walletName = "NomoWallet";
 
     /* The name of service/walletd, the programmatic rpc interface to a
        wallet */
-    const std::string walletdName = "BLOC-service";
+    const std::string walletdName = "Nomo-service";
 
     /* The full name of your crypto */
     const std::string coinName = std::string(CryptoNote::CRYPTONOTE_NAME);
 
     /* Where can your users contact you for support? E.g. discord */
-    const std::string contactLink = "https://bloc.money";
+    const std::string contactLink = "https://no.mo";
 
 
     /* The number of decimals your coin has */
