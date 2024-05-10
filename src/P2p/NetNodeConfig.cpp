@@ -56,7 +56,7 @@ NetNodeConfig::NetNodeConfig() {
   allowLocalIp = true;
   hideMyPort = false;
   configFolder = Tools::getDefaultDataDirectory();
-  testnet = true;
+  testnet = false;
 }
 
 bool NetNodeConfig::init(const std::string interface, const int port, const int external, const bool localIp,
